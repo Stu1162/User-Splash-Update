@@ -19,6 +19,16 @@ a{text-decoration:none;}
 .clear{clear: both;}
 /*Page css*/
 body{ font: 14px/17px 'proxima_novalight', Arial, Helvetica, sans-serif; color:#fff;}
+
+.learnmore{
+	background: url(https://s3.amazonaws.com/storkup/Optimizely/Update+2/learnmore.png);
+	width: 171px;
+	height: 55px;
+	margin-top: -188px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .wrapper{
 	width: 1040px;
 	height: 45px;
@@ -266,7 +276,7 @@ margin-right: 9px;
 			}
 			
 .banner1{float: left; width: 100%;}
-.banner1 img{ width: 100%; float: left;margin-top:4em; }
+.banner1 img{ width: 100%; float: left;margin-top:6em; }
 
 .headerIn1{float: left; width: 450px; position: absolute; right: 4%; top: 70px;}
 
@@ -434,7 +444,13 @@ margin-right: 9px;
 .storkBox .btnBox a{padding: 0 28px;}
 
 
-.storkBox .moreBtn{top:-128px; background-color: transparent; color: 1a1a1a;}
+.storkBox .moreBtn{
+	top: -136px;
+	background-color: transparent;
+	margin-left: -80px;
+	color: #ffffff;
+	font-size: 22px;
+}
 
 .featureBox{float: left; width: 100%; background-color: #d95733; padding: 32px 0;}
 .featureBox h2{font: 30px/35px 'proxima_novalight'; color: #fff; text-align: center;}
