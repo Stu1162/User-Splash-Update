@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Merchant</title>
+    <link rel="stylesheet" type="text/css" href="includes/css3.css" />             
+    <link rel="stylesheet" type="text/css" href="includes/style.css" />
+    <link rel="stylesheet" type="text/css" href="includes/fonts/font.css" />
+    <script type="text/javascript" src="includes/jquery-1.8.3.js"></script>
+    <!--[if IE]><script type="text/javascript" src="includes/html5shiv.js"></script><![endif]-->
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+            $('.moreBtn').click(function(){
+                $('html, body').animate({ scrollTop: 500 }, 500);
+                return false;
+            }); 
+            $(".moreBtn1").on("click",function(e){
+                e.preventDefault(); 
+                // Call the scroll function
+                goToByScroll("storeBox");
+            });
+            function goToByScroll(id){
+                id = id.replace("link", "");
+                // Scroll
+                $('html,body').animate({
+                    scrollTop: $("#"+id).offset().top},
+                'slow');
+            }  
+        });
+        //        
+        //       $(document).ready(function(){
+        //          $('.moreBtn').click(function(){
+        //             $('html,body').animate({scrollTop: 800},500);
+        //             return false;
+        //          });
+        //       });
+    </script>
+</head>
+
+<body class="page">
+    <header id="header">
+       
+        <section class
+        ="headerTop">
+            <div cla
+            ss="wrapper">
+                <a href="#" title="" class="logo"><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/menulogo.png" alt=""/></a>
+                <a href="http://storkup.com/signup" title="" class="loginBtn">Login</a>
+                <p class="account">Already got a StorkUp account? </p>
+                </div>
+                
+                <div class="subbanner"> 
+                	<div class= "wrapper2">	<a href="#" title="" class="subtext">Why join StorkUp?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    						 	<a href="#" title="" class="subtext">What others have said&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                           <a href="#" title="" class="subtext">Have a look around&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                           <a href="#" title="" class="subtext">Featured shop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                           <a href="#" title="" class="subtext">Competition</a> 	</div>
+                
+                </div>
+                </section>
+               
+               <figure class="banner1"><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/splashbackground_1.gif" alt=""/>
+        <div class="wrapper">      
+              
+            <div class="headerIn1">
+              
+                <section class="lcdSec">
+                    <figure><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/logo.png" alt=""/></figure>
+                      <h1>Helping you navigate the world of kids’ products</h1>
+                    <div class="btnBoxfb">
+                        <a href="http://storkup.com/signup" title="">Facebook</a>
+                    </div>
+                     <div class="btnBoxtw">
+                        <a href="http://storkup.com/signup" title="">Twitter</a>
+                    </div>
+                     <div class="btnBox2">
+                        <a href="http://storkup.com/signup" title="">Email address</a>
+                    </div>
+                    <p class="subbuttontext">Do you have your own shop? Click here</p>
+                </section>
+            </div>
+        </div>
+        </figure>
+ 
+    </header>
+    <section class="storkBox">
+        <div class="joinbanner">StorkUp is a brand new social shopping platform for mums</div>
+        <div class="benefitswrapper">
+            <ul>
+                <li>
+                    <figure><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/Icon1.png" alt="" style="margin-left:-15px"/></figure>
+                    <section class="storkD">
+                        <p class="txt1">Discover products from over 250 parenting websites and follow your favourites</p>
+                        <p class="featuresubtext">StorkUp helps mums navigate the world of kids’ products. 
+                            It’s a unique shopping experience where our growing
+                            community of mums can discover, collect, and buy from an
+                            entirely crowd-sourced product catalogue of fabulous
+                            products and stores.
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <figure><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/icon2.png" alt=""/></figure>
+                    <section class="storkD">
+                        <p class="txt1" style="margin-top:15px">Create and share lists of products for
+                            your little ones</p>
+                        <p class="featuresubtext">Save your favourite products into handy lists and share
+                            them with your friends! Create as many lists as you
+                            need and organise your products your way.
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <figure><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/Icon3.png" alt="" style="margin-left:-2px"/></figure>
+                    <section class="storkD">
+                        <p class="txt1" style="margin-top:10px">See what’s trending across 19 different
+                            children’s and maternity categories</p>
+                        <p class="featuresubtext">Are you looking for a new pram? Some amazing toys?
+                            Quirky decorations? Are you mad about flowers, frogs
+                            or zigzags? Whatever you're looking for, StorkUp
+                            has you covered.
+                        </p>
+                    </section>
+                </li>
+                 <li>
+                    <figure><img src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/Icon4.png" alt="" style="margin-left:-27px;"/></figure>
+
+                    <section class="storkD">
+                        <p class="txt1" style="margin-top:-10px">Get answers to your parenting questions
+                            from mums like you</p>
+                        <p class="featuresubtext">Being a parent is all about learning on the job, but
+                            everyone needs a helping hand sometimes. Share
+                            experiences, swap stories and dip into the wisdom
+                            of other mums and dads in the StorkUp community.
+                        </p>
+                    </section>
+                </li>
+            </ul>
+            <div class="btnBoxpink">
+                <a href="http://storkup.com/signup" title=""></a>
+            </div>
+            <a href="javascript:void(0);" title="" class="moreBtn">Learn more</a>
+        </div>
+    </section>
+    <section class="quotebox">
+        <div class="wrapper">
+            <h2>"StorkUp is like a shopping compass for mums! Find out what other mums are buying for their kids and discover some amazing new products and online stores."</h2>
+            <br/><br/><br/><br/>
+            <h2>"StorkUp is like a shopping compass for mums! Find out what other mums are buying for their kids and discover some amazing new products and online stores."</h2>
+            <br/><br/><br/><br/>
+            <h2>"StorkUp is like a shopping compass for mums! Find out what other mums are buying for their kids and discover some amazing new products and online stores."</h2>
+            
+        </div>
+    </section>
+
+<!-- _______________________Trending Products__________________________ -->
+
+    <section class="testiBox">
+        <div class="wrapper">
+            <h2>Check out what's trending on StorkUp</h2>
+            
+                <div id="Trending Wrapper" style="position: relative; margin-left: auto; margin-right:27px; top: 35px; width: 1005px; height: 413px;" class="">
+                   
+
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 1" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Product+Grid/1a.jpg" style="position: relative; left: 0px; top: 0px;" class=""></a>
+ 
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 2" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/10.jpg" style="position: relative; left: 5px; top: 0px;" class=""></a>
+ 
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 3" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/12.jpg" style="position: relative; left: 10px; top: 0px;" class=""></a>
+
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 4" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/2.jpg" style="position: relative; left: 15px; top: 0px;" class=""></a>
+
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 5" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/3.jpg" style="position: relative; left: 20px; top: 0px;" class=""></a>
+
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 6" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/4.jpg" style="position: relative; left: 0px; top: 5px;" class=""></a>
+
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 7" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/5.jpg" style="position: relative; left: 5px; top: 5px;" class=""></a>
+        
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 8" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/6.jpg" style="position: relative; left: 10px; top: 5px;" class=""></a>
+        
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 9" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/7.jpg" style="position: relative; left: 15px; top: 5px;" class=""></a>
+        
+        <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 10" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/8.jpg" style="position: relative; left: 20px; top: 5px;" class=""></a></div>
+            </div>
+
+            <p>Check out more gorgeous products on StorkUp</p>
+
+                <div class="btnBoxtrending">
+                    <a href="http://storkup.com/signup" title=""></a>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- _______________________________________________________ -->
+
+
+    <section class="shopbox">
+        <div class="shopwrapper">
+
+            <h2>Featured Shop</h2>
+
+            <h1> Each week, we showcase one of our fabulous retailers and bring you exclusive offers and competitions! Right now, get 10% off all Girl Meets Dress orders.<h1>
+            
+                <div id="Trending Wrapper" style="position: relative; margin-left: auto; margin-right:27px; top: 35px; width: 1005px; height: 290px;margin-left:10px;" class="">
+                   
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 1" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Product+Grid/1a.jpg" style="position: relative; left: 0px; top: 0px;" class=""></a>
+ 
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 2" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/10.jpg" style="position: relative; left: 5px; top: 0px;" class=""></a>
+ 
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 3" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/12.jpg" style="position: relative; left: 10px; top: 0px;" class=""></a>
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 4" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/2.jpg" style="position: relative; left: 15px; top: 0px;" class=""></a>
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 5" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/3.jpg" style="position: relative; left: 20px; top: 0px;" class=""></a>
+
+        </div>
+        <h1>View more of Kids One Stop Shop's gorgeous products<h1>
+            </div>
+
+            
+            <div class="btnBox">
+                <a href="http://storkup.com/signup" title=""></a>
+            </div>
+        </div>
+    </section>
+
+     <section class="compbox">
+        <div class="compwrapper">
+
+            <h2>Competitions</h2>
+
+            <h1> We've teamed up with our friends at Frugi to give away a gorgeous outfit every day until 15th October<h1>
+            
+                <div id="Trending Wrapper" style="position: relative; margin-left: auto; margin-right:24px; top: 35px; width: 1005px; height: 290px;" class="">
+                   
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 1" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Product+Grid/1a.jpg" style="position: relative; left: 0px; top: 0px;" class=""></a>
+ 
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 2" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/10.jpg" style="position: relative; left: 5px; top: 0px;" class=""></a>
+ 
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 3" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/12.jpg" style="position: relative; left: 10px; top: 0px;" class=""></a>
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 4" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/2.jpg" style="position: relative; left: 15px; top: 0px;" class=""></a>
+
+                    <a href="https://app.storkup.com/products/animal-alphabet-print"><img id="Trending Product 5" src="https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+To+Splash+Page/3.jpg" style="position: relative; left: 20px; top: 0px;" class=""></a>
+
+        </div>
+        <h1>View more of Kids One Stop Shop's gorgeous products<h1>
+            </div>
+
+            
+            <div class="btnBox">
+                <a href="http://storkup.com/signup" title=""></a>
+            </div>
+        </div>
+    </section>
+
+</body>

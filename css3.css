@@ -1,0 +1,6 @@
+
+.btnBox a{border-radius:4px; position: relative; behavior: url("includes/PIE.htc");}
+.accountBox li span{border-radius:50%; position: relative; behavior: url("includes/PIE.htc");}
+.button,.btnBox2 a{border-radius:4px;}
+.loginBtn{border-radius:2px;}
+

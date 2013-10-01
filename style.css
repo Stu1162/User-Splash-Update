@@ -1,0 +1,546 @@
+
+/*Reset css starts*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul {list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent;}
+/* change colours to suit your needs */
+ins { background-color:#fff; color:#000; text-decoration:none; }
+/* change colours to suit your needs */
+mark { background-color:#fff; color:#000; }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; }
+/* change border colour to suit your needs */
+input, select { vertical-align:middle; outline:none; }
+
+a{text-decoration:none;}
+.clear{clear: both;}
+/*Page css*/
+body{ font: 14px/17px 'proxima_novalight', Arial, Helvetica, sans-serif; color:#fff;}
+.wrapper{
+	width: 1040px;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 50px;
+	}
+	
+.wrapper2 {
+	width: 90em;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+			}
+
+.benefitswrapper{
+	width: 1040px;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 50px;
+	}			
+
+.shopwrapper{
+	width: 1040px;
+	height: 45px;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	}
+
+.shopwrapper h2 {
+	font-size: 40px;
+	color:#1a1a1a;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+			
+.subtext	{
+	color: #1a1a1a;
+	font-size: 20px;
+	margin-top: 30px;			
+			}
+	
+#header{float: left; width: 100%;}
+.headerIn{position: absolute; left: 0; top: 0; width: 89%; float: left; padding: 9.5% 0 0 10%;}
+.headerL{float: left; position: relative; z-index: 100; background: url(bg.png) repeat 0 0; width: 320px; color: #1a1a1a; padding: 10px 13px 18px 13px;}
+.headerL h3{font: 28px/32px 'proxima_novalight'; padding: 0 0 20px;}
+.headerL p{font: 15px/17px 'proxima_novalight'; padding: 0 0 15px;}
+.button{display: block; background: url(btn-bg.png) repeat-x 0 bottom; font: 18px/43px 'proxima_novalight'; color: #fff; padding: 0 18px; text-align: center;}
+.button:hover{background: #d05630 url(btn-bg-hover.png) repeat-x 0 bottom;}
+.headerR{float: left; padding: 0 0 0 20px;}
+.banner{float: left; width: 100%;}
+.banner img{ width: 100%; height: 481px;}
+
+.featuredBox{width: 100%; float: left; padding: 0 0 49px;}
+.featuredBox ul{width: 100%; float: left; text-align: center; padding: 45px 0 32px;}
+.featuredBox li{display: inline-block; width: 26.5%; *float: left; *width:33%;}
+.featuredBox li p{color: #231f20; font: 15px/20px 'proxima_novalight'; padding: 12px 10% 0;}
+.btnBox{float: left; width: 100%; text-align: center; padding: 20px 0;}
+.btnBox a{
+	display: inline-block;
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/compbutton.png);
+	padding: 0 0px;
+	border-radius: 2px;
+	width: 236px;
+	height: 51px;}
+.btnBox a:hover{
+	display: inline-block;
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/compbutton2.png);
+	padding: 0 0px;
+	border-radius: 2px;
+	width: 236px;
+	height: 51px;}
+.moreBtn{position: absolute; left: 50%; top: -40px; color: #1a1a1a; font: 18px/40px 'proxima_novalight'; background-color: #fff; padding: 0 15px; margin: 0 0 0 -60px;}
+.moreBtn1{position: absolute; left: 50%; top: -23px; color: #02b2a5; font: 12px/23px 'proxima_novalight'; background-color: #fff; padding: 0 10px; margin: 0 0 0 -40px;}
+
+
+/* ------------------------- Buttons ------------------------- */
+
+.btnBoxpink{
+	float: left;
+	width: 100%;
+	text-align: center; 
+	padding: 20px 0;
+}
+
+.btnBoxpink a{
+	display: inline-block;
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/getstarted1.jpg);
+	padding: 0 0px;
+	border-radius: 2px;
+	width: 236px;
+	height: 51px;
+}
+
+.btnBoxpink a:hover{
+	background: #d05630 url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/getstarted2.jpg) repeat-x 0 bottom;
+}
+
+.btnBoxtrending{
+	float: left;
+	width: 100%;
+	text-align: center; 
+	padding: 20px 0;
+}
+
+.btnBoxtrending a{
+	display: inline-block;
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/buttonbrowse1.jpg);
+	font: 19px/43px 'proxima_novalight';
+	color: #fff;
+	padding: 0 0px;
+	border-radius: 2px;
+	width: 236px;
+	height: 51px;
+	margin-right: 9px;
+}
+
+.btnBoxtrending a:hover{
+	display: inline-block;
+background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/buttonbrowse2.jpg);
+font: 19px/43px 'proxima_novalight';
+color: #fff;
+padding: 0 0px;
+border-radius: 2px;
+width: 236px;
+height: 51px;
+margin-right: 9px;
+
+}
+
+
+/* ---------------------------------------------------------- */
+
+.benefitBox{float: left; width: 100%; background-color: #02b2a5; padding: 48px 0;}
+.benefitBox ul{float: left;  padding: 0px 12% 22px; width: 76%;}
+.benefitBox li{float: left; width: 100%; padding: 16px 0;}
+.benefitBox li figure{float: left; width: 216px; text-align: center;}
+.benefitBox .moreBtn1{background-color: #02b2a5; color: #fff; top: -71px;}
+.description{float: left; width: 511px; color: #fff; font: 14px/17px 'proxima_novalight';}
+.description h3{font: 20px/30px 'proxima_novalight'; padding: 0 0 8px;}
+.description p{padding: 0 0 15px;}
+
+.storeBox{float: left; width: 100%; background-color: #e6e6e6; padding: 50px 0 60px;}
+.storeBox h2{color: #808080; font: 30px/40px 'proxima_novalight'; padding: 0 0 0 15.5%;}
+.storeBox ul{float: left; width: 84.5%; padding: 12px 0 12px 15.5%;}
+.storeBox ul li{display: inline-block; vertical-align: middle; padding: 0 55px 0 0; *float: left;}
+
+.accountBox{float: left; width: 100%; background-color: #ea6036; padding: 59px 0; color: #fff;}
+.accountBox h3{font: 30px/55px 'proxima_novalight'; padding: 0 0 0 15.5%;}
+.accountBox h4{font: 20px/30px 'proxima_novalight'; padding: 0 0 0 15.5%;}
+.txt{font: 14px/16px 'proxima_novalight'; padding: 0 0 0 15.5%;}
+.accountBox ul{float: left; width: 68%;  padding: 8px 15.5% 15px 15.5%;}
+.accountBox ul li{float: left; width: 50%; padding: 17px 0;}
+.accountBox li span{float: left; width: 38px; height: 38px; font: 20px/38px 'proxima_novalight'; background-color: #992d17; text-align: center;}
+.detail{float: left; width: 285px; padding: 0 0 0 13px;}
+.detail2{width: 255px;}
+.detail p{font: 13px/15px 'proxima_novalight';}
+.accountBox .btnBox a{background: url(btn2-bg.png) repeat-x 0 0;}
+.accountBox .btnBox a:hover{background: #02988d url(btn2-bg-hover.png) repeat-x 0 bottom;}
+
+#footer{background-color: #231f20; width: 100%; float: left;}
+#footer ul{float: left; padding: 0 0 0 16%;}
+#footer ul li{float: left; padding: 0 20px 0 0}
+#footer ul li a{color: #fff; font: 12px/30px 'proxima_novalight';}
+#footer p{float: right;font: 12px/30px 'proxima_novalight'; padding: 0 16% 0 0;}
+
+/* user page */
+
+
+.headerTop{
+	float: left; 
+	width: 100%; 
+	height: 23px;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	background-color: #ea6036;
+	z-index: 1;
+	padding: 20px 0;
+	border-bottom:3px solid #af432b;
+	}
+
+.joinbanner{
+	width: 100%;
+	height: 44px;
+	background-color: rgb(234, 96, 54);
+	left: -28px;
+	top:-60px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: rgb(151, 46, 24);
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(151, 46, 24);
+	font-size: 28px;
+	z-index: 3172000;
+	text-align: center;
+	padding-top: 24px;
+	margin-top:-2%;
+	}
+
+.logo{
+	float: left; 
+	margin: -7px 0 0 10%;
+	}
+	
+.logo img	{
+	float: left;
+	padding-top:5px;
+	padding-bottom:4px;
+	margin-left: 1em;
+			}
+			
+.account	{
+	float: right;
+	font: 11px/20px;
+	font-family: "proxima_novalight";
+	padding-top:4px;
+			}
+			
+.loginBtn	{
+	float: right;
+	color: #fff;
+	background-color: transparent;
+	height: 20px;
+	font: 14px/20px;
+	font-family: 'proxima_novalight';
+	padding: 2px 18px;
+	margin: 2px 5% 0 0px;
+	margin-right: 10em;
+			}
+			
+.subbanner	{
+	background: #eceef1;
+	height: 30px;
+	width: 100%;
+	margin-top: 46px;
+	border-bottom: 3px solid #cccccc;
+	padding-top: 14px;
+			}
+			
+.banner1{float: left; width: 100%;}
+.banner1 img{ width: 100%; float: left;margin-top:4em; }
+
+.headerIn1{float: left; width: 450px; position: absolute; right: 4%; top: 70px;}
+
+.headerIn1 h1	{
+	font: 32px/35px 'proxima_novalight';
+	text-align: center;
+	padding: 0% 14% 0 0;
+	letter-spacing: 1px;
+	margin-left:-7%;
+	margin-top:18%;
+	width:378px;
+	margin-bottom:15px;
+	}
+
+
+.storkuplogo	{
+	background-image:url(https://s3.amazonaws.com/storkup/Optimizely/Update+To+Splash+Page/logo.png);
+}
+
+.subbuttontext {
+	color: #1a1a1a;
+	width: 193px;
+	margin-left: 3.3em;
+	margin-top: 12em;
+	font-size: 17px;
+	text-align: center;
+}
+
+.lcdSec		{
+	float: right;
+	width: 389px;
+	padding: 17px 23px 0px 0px;
+	margin-right: -4em;
+	margin-top: 8em;
+}
+	
+.lcdSec figure	{
+	height: 84px;
+	padding: 12px 5% 0 0px;
+	margin-top:-31px;
+	margin-left:-44px;
+				}
+
+/*------------- Sign up buttons --------------- */
+
+.btnBox2	{
+	float: left; 
+	width: 360px;
+	text-align: left;
+	padding: 18px 0 0px 41px;
+	margin-top:-40px;
+	margin-left:0px;
+	}
+	
+.btnBox2 a	{
+	display: inline-block;
+	background: url(btn-bg.png) repeat-x 0 bottom;
+	font: 24px/36px 'proxima_novalight';
+	color: #fff;
+	padding: 3px 26px 4px 24px;
+	margin-left:18px;
+	margin-top:10%;
+	border-radius: 2px;
+	}
+
+.btnBox2 a:hover	{
+	background: #d05630 url(btn-bg-hover.png) repeat-x 0 bottom;
+	}
+	
+.btnBoxfb	{
+	float: left; 
+	width: 360px;
+	text-align: left;
+	padding: 18px 0 0px 41px;
+	margin-top:-40px;
+	margin-left:0px;
+	}
+	
+.btnBoxfb a	{
+	display: inline-block;
+	background: url(btn-fb.png) repeat-x 0 bottom;
+	font: 24px/36px 'proxima_novalight';
+	color: #fff;
+	padding: 3px 26px 4px 24px;
+	margin-left:19px;
+	margin-top:10%;
+	width: 145px;
+	text-align: center;
+	border-radius: 2px;
+	}
+
+.btnBoxfb
+ a:hover	{
+	background: #d05630 url(btn-fb-hover.png) repeat-x 0 bottom;
+	}	
+
+
+.btnBoxtw	{
+	float: left; 
+	width: 360px;
+	text-align: left;
+	padding: 18px 0 0px 41px;
+	margin-top:-40px;
+	margin-left:0px;
+	}
+	
+.btnBoxtw a	{
+	display: inline-block;
+	background: url(btn-tw.png) repeat-x 0 bottom;
+	font: 24px/36px 'proxima_novalight';
+	color: #fff;
+	padding: 3px 26px 4px 24px;
+	margin-left:19px;
+	margin-top:10%;
+	width: 145px;
+	text-align: center;
+	border-radius: 2px;
+	}
+
+.btnBoxtw a:hover	{
+	background: #d05630 url(btn-tw-hover.png) repeat-x 0 bottom;
+	}	
+
+/*------------------------------------------ */
+
+.storkBox {
+	float: left;
+	width: 100%;
+	background-color: #f7f7f7;
+	padding: 28px 0;
+	border-bottom: 3px solid #cccccc;
+}
+
+.storkBox h2{font: 30px/35px 'proxima_novalight'; color: #1a1a1a; text-align: center;}
+.storkBox ul{float: left; width: 93%; padding: 0 0 0 10%;}
+.storkBox ul li{float: left; width: 100%; padding: 22px 0;}
+.storkBox ul figure{float: left; width: 120px; text-align: center; padding: 4px 0 0;}
+
+
+.storkD	{
+	float: left;
+	width: 58%;
+	margin-left: 14%;
+	margin-top: 2%;
+		}
+
+.storkD p{padding: 0 0 20px;  font: 22px/28px 'proxima_novalight';}
+.txt1{font: 28px/30px 'proxima_novalight'!important; color:#1a1a1a;}
+
+.featuresubtext	{
+	font-size: 24px/26px;
+	font-family: 'proxima_novalight';
+	color: #1a1a1a;	
+}
+
+.trendingbox {
+	position: relative;
+	left: -188px;
+	top: 48px;
+	width: 1028px;
+	height: 413px;
+}
+
+.storkBox .btnBox{padding: 7px 0 0;}
+.storkBox .btnBox a{padding: 0 28px;}
+
+
+.storkBox .moreBtn{top:-128px; background-color: transparent; color: 1a1a1a;}
+
+.featureBox{float: left; width: 100%; background-color: #d95733; padding: 32px 0;}
+.featureBox h2{font: 30px/35px 'proxima_novalight'; color: #fff; text-align: center;}
+
+.quotebox{float: left;min-height:640px; width: 100%; background:url(https://s3.amazonaws.com/storkup/Optimizely/Update+To+Splash+Page/quotes_background_image.jpg); padding: 32px 0;}
+.quotebox h2{font: 30px/35px 'proxima_novalight'; color: #fff; text-align: center;margin-top: 2%;}
+
+
+
+
+.funkyLogo{text-align: center; padding: 21px 0 13px;}
+.text{text-align: center; font: 30px/32px 'proxima_novalight'; color: #fff;}
+.featureBox .btnBox{padding: 50px 0 10px;}
+.featureBox .btnBox a{background: url(btn2-bg.png) repeat-x 0 0; padding: 0 26px;}
+.featureBox .btnBox a:hover{background: #02988d url(btn2-bg-hover.png) repeat-x 0 bottom; }
+
+.testiBox{float: left; width: 100%; background-color: #36c1b0; padding: 40px 0 24px;border-top:3px solid rgb(75, 135, 125);min-height:710px;border-bottom: 3px solid rgb(75, 135, 125);}
+.testiBox h2{color: #ffffff;  font: 40px/36px 'proxima_novalight'; padding: 10px 18% 0;margin-top:-30px;}
+.testiBox p{
+	color: #ffffff;
+	font: 27px/32px 'proxima_novalight';
+	padding: 450px 18% 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 568px;
+	text-align: center;
+	}
+
+.author{float: right; padding: 5px 16.5% 0 0;}
+.author figure{float: left; margin-top:2px;}
+.authorD{float: left; width: 165px; padding: 0 0 0 5px;}
+.authorD h3{color: #404041; font: 12px/15px 'proxima_novalight'; padding: 4px 0 0;}
+.authorD span{color: #ea6036; font: 11px/13px 'proxima_novalight'; float: left;}
+.authorD a{color: #ea6036; font: 9px/11px 'proxima_novalight'; float: left;}
+
+.shopbox{height:610px;float: left; width: 100%; background-color: #rgb(242, 242, 242); padding: 65px 0 10px;border-top: 3px solid #cccccc; border-bottom: 3px solid #cccccc;}
+.shopbox h1 {
+	color: #1a1a1a;
+	text-align: center;
+	line-height: 33px;
+	font: 27px/32px 'proxima_novalight';
+}
+
+
+.testi1,.testi2,.testi3{float: left; width: 222px; padding: 0 69px 0 0;}
+.testi1{padding: 0 69px 0 9.5%;}
+.testi1In{background: #702033 url(quote1.png) no-repeat 10px 14px; width: 220px; padding: 0 18px 0 33px; min-height: 130px; position: relative;}
+.testi2 .testi1In{background: #f76d9b url(quote2.png) no-repeat 10px 14px; color: #702033;   }
+.testi1In p{ font: 13px/13px 'proxima_novalight'; padding: 16px 0 0;}
+.testi1 h4,.testi2 h4,.testi3 h4{font: 12px/12px 'proxima_novalight'; padding: 13px 0 0;}
+p.text2{font: 12px/12px 'proxima_novalight'; color: #702033;}
+.testi1 em,.testi2 em,.testi3 em{position: absolute; bottom: -10px; left: 32px; background: url(arrow.png) no-repeat 0 0; width: 17px; height: 12px; float: left;}
+.testi2 em{background: url(arrow2.png) no-repeat 0 0;}
+
+.shopbox .btnBox a{
+	display: inline-block;
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/buttonproducts1.jpg);
+	padding: 0 0px;
+	border-radius: 2px;
+	width: 236px;
+	height: 51px;}
+	
+.shopbox .btnBox a:hover{background: #02988d url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/buttonproducts2.jpg) repeat-x 0 bottom; }
+.shopbox .btnBox {padding: 27px 0;margin-top: 360px;margin-left: 10px;}
+
+
+
+.compbox{
+	height:610px;
+	float: left;
+	width: 100%; 
+	background: url(https://d2xsva90fosgwa.cloudfront.net/Optimizely/Update+2/Compbackground_1.jpg); 
+	padding: 65px 0 10px;
+	border-bottom: 3px solid #cccccc;
+}
+
+.compwrapper{
+	width: 1040px;
+	height: 45px;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	}
+
+.compwrapper h2 {
+	font: 40px/32px 'proxima_novalight';
+	color:#ffffff;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+
+.compbox h2 {
+	color: #ffffff;
+	font: 40px/40px;
+
+}
+
+.compbox h1 {
+	color: #ffffff;
+	text-align: center;
+	line-height: 33px;
+	font: 27px/32px 'proxima_novalight';
+}
+
+.compbox .btnBox {padding: 27px 0;margin-top: 360px;margin-left: 10px;}
+
+
